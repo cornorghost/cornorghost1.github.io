@@ -102,5 +102,5 @@ init();
 var timer=setInterval(function () {
   snakeMove();
   if(isGameover()) {clearInterval(timer); alert('游戏结束');};
-}, 200);
+}, 150);
 alert('游戏开始');
