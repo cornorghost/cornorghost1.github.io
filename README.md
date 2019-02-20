@@ -12,8 +12,8 @@
     <canvas id="cvs"></canvas>
     <p id="values">values=0</p>
 
-    <scrip>
-    var cvs=document.getElementById('cvs');
+<scrip>
+var cvs=document.getElementById('cvs');
 var ctx=cvs.getContext('2d');
 cvs.height=600;
 cvs.width=800;
